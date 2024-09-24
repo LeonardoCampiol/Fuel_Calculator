@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val comecar = findViewById<Button>(R.id.button)
+        val comecar = findViewById<Button>(R.id.btn_comecar)
 
         comecar.setOnClickListener{
             val intent = Intent(this, tela_preco_combustivel::class.java)

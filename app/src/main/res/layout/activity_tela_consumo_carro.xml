@@ -23,7 +23,7 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Preço do combustível"
+        android:text="Consumo do carro"
         android:textStyle="bold|italic"
         android:textSize="25sp"
         android:textColor="@color/primaria"
@@ -36,7 +36,7 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Passo 1 de 3"
+        android:text="Passo 2 de 3"
         android:textColor="@color/secundaria"
         android:layout_marginStart="30dp"
         app:layout_constraintStart_toStartOf="parent"
@@ -53,17 +53,17 @@
         app:hintEnabled="false">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/preco_combustivel"
+            android:id="@+id/edtConsumo_carro"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/rounded_bg"
-            android:hint="Ex: 1.70"
+            android:hint="Ex: 10km/l"
             android:maxLength="5"
             android:inputType="numberDecimal"/>
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
-        android:id="@+id/btn_proximo"
+        android:id="@+id/btn_proximo_2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Próximo!"
